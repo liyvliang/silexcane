@@ -13,7 +13,7 @@
   ],
   "require": {
     "php": ">=5.4",
-    "silex/silex": "~1.2",
+    "silex/silex": "dev-poper",
     "vlucas/valitron": ">=1.1.8"
   },
   "require-dev": {
