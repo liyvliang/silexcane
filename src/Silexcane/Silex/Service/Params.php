@@ -7,7 +7,7 @@ class Params extends Service implements \ArrayAccess
 {
     protected $values = [];
 
-    public function import(array $names = [], array $requestParameters = null)
+    public function import(array $names = [], ?array $requestParameters = null)
     {
         if (is_null($requestParameters)) {
             $requestMethod = $this->app['request']->getMethod();
